@@ -1,31 +1,29 @@
 ```
 Folder Structure:
 
-	Folder | Subfolder | Files
-	---- | ---- | ----
-	Modified_File_Getter | | 
-		| fileCrawler.py (main script to be executed) |
-		| files_all | 
-			|  | most recent copy of all files
-	 	| config |
-	 		| | search_these_directories.txt
-	 		| | skip_these_directories.txt 
-	 		| | skip_these_files.txt
-	 	| files_update |
-	 		| folder_date1 |
-	 			| | most recent copy as of date1
-	 		| folder_date2 |
-	 			| | most recent copy as of date2
-	 		| folder_dateX |
-	 			| | most recent copy as of dateX
-		| last_run_time |
-			|  | LAST_RUN.txt (persists the last completed run time)
-		| logs |
-			| | file_date1 (log for date1 run) 
-			| | file_date2 (log for date2 run)
-	    	| | file_dateX (log for dateX run) 
-	    | readme |
-	    	| | readme.txt (this file)
+Modified_File_Getter
+	+-- fileCrawler.py (main script to be executed)
+	+-- files_all
+		+-- most recent copy of all files
+ 	+-- config
+ 		+-- search_these_directories.txt
+ 		+-- skip_these_directories.txt
+ 		+-- skip_these_files.txt
+ 	+-- files_update
+ 		+-- folder_date1
+ 			+-- most recent copy as of date1
+ 		+-- folder_date2
+ 			+-- most recent copy as of date2
+ 		+-- folder_dateX
+ 			+-- most recent copy as of dateX 
+	+-- last_run_time
+		+-- LAST_RUN.txt (persists the last completed run time)
+	+-- logs
+		+-- file_date1 (log for date1 run)
+		+-- file_date2 (log for date2 run)
+    	+-- file_dateX (log for dateX run)
+    +-- readme
+    	+-- readme.txt (this file)
 
 
 Notes:
@@ -62,6 +60,7 @@ DO NOT DELETE the following:
 		C:/Users/dgabrieli/Desktop/tester
 	Valid file formatting is:
 		C:/Users/dgabrieli/Desktop/tester/skip_me.txt
+
 
 ```
 
