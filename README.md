@@ -25,6 +25,7 @@ Modified_File_Getter
     +-- readme
     	+-- readme.txt (this file)
 
+```
 
 Notes:
 This program was developed to help maintain a central location of the most recent version of files saved across sprawling directory structures.
@@ -39,7 +40,7 @@ The "requriments" are as follows:
 	The file is not in a directory designated in skip_these_directories.txt
 
 The "central location," where files are copied to, consists of two directories:
-	1) THIS IS DISABLED: The files_all directory, which is all the files.  When a modified file is found by the program a copy will be saved here.  If a filename already exists in this directory, it will be overwritten here. Thus keeping only the most up-to-date version. 
+	1) THIS IS DISABLED The files_all directory, which is all the files.  When a modified file is found by the program a copy will be saved here.  If a filename already exists in this directory, it will be overwritten here. Thus keeping only the most up-to-date version. 
 	
 	2) The files_update directory has sub-directories which are created at run time for each execution of the program.  The subfolder names are the datetime stamp of execution.  Inside these subfolders are a copy of only the modified files found during that execution.  This is known as the 'delta,' and helps keep track of only which files have been modified since that last execution.
 
@@ -62,5 +63,5 @@ DO NOT DELETE the following:
 		C:/Users/dgabrieli/Desktop/tester/skip_me.txt
 
 
-```
+
 
