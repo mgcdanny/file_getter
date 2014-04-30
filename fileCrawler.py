@@ -76,6 +76,14 @@ if __name__ == "__main__":
     LOG_LAST_RUN ="last_run_time/LAST_RUN.txt"
     FMT='%Y-%m-%d-%H-%M-%S'
     
+    ##########################################
+    """bc github doesn't save empty folders
+        and .gitignore skips these folders, 
+        thus create them (if not already existing)"""
+    dir_create(DIR_UPDATE)
+    dir_create(DIR_ALL)
+    ##########################################
+
     time_current = dt.datetime.now()
     time_current_string = time_current.strftime(FMT)
     time_previous = time_read(LOG_LAST_RUN, FMT)
