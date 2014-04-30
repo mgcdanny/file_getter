@@ -1,6 +1,6 @@
+```
 Folder Structure:
 
-:
 	Folder | Subfolder | Files
 	---- | ---- | ----
 	Modified_File_Getter | | 
@@ -26,6 +26,7 @@ Folder Structure:
 	    	| | file_dateX (log for dateX run) 
 	    | readme |
 	    	| | readme.txt (this file)
+
 
 Notes:
 This program was developed to help maintain a central location of the most recent version of files saved across sprawling directory structures.
@@ -62,4 +63,5 @@ DO NOT DELETE the following:
 	Valid file formatting is:
 		C:/Users/dgabrieli/Desktop/tester/skip_me.txt
 
+```
 
